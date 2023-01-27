@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-smallcaps"
         android:text="@string/karla_rodr_guez_jim_nez"
+        android:textColor="#17AFA1"
         android:textStyle="bold"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="125dp"
