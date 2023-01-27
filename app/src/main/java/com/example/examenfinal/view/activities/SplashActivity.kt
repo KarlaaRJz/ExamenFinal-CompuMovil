@@ -1,8 +1,9 @@
-package com.example.examenfinal
+package com.example.examenfinal.view.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.examenfinal.R
 import kotlin.concurrent.thread
 
 
