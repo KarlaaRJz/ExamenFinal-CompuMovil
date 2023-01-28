@@ -33,7 +33,7 @@ class Details : AppCompatActivity() {
         val call = Constants.getRetrofit().create(Api::class.java).getRazaApiary(id)
 
         CoroutineScope(Dispatchers.IO).launch {
-            call.enqueue(object: Callback<Raza_detail> {
+            call.enqueue(object : Callback<Raza_detail>{
                 override fun onResponse(call: Call<Raza_detail>, response: Response<Raza_detail>) {
                     binding.pbConexion.visibility = View.GONE
 
