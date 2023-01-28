@@ -13,16 +13,15 @@
         android:fontFamily="cursive"
         android:scaleX="1.5"
         android:scaleY="1.5"
-        android:text="@string/razas_de_perros"
+        android:text="@string/razas_de_perros_en_m_xico"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintVertical_bias="0.393" />
 
     <TextView
         android:id="@+id/textView2"
@@ -31,9 +30,10 @@
         android:fontFamily="sans-serif-smallcaps"
         android:text="@string/karla_rodr_guez_jim_nez"
         android:textColor="#17AFA1"
+        android:textSize="20sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="125dp"
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="91dp"
         tools:layout_editor_absoluteY="90dp" />
 
     <TextView
@@ -43,6 +43,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:text="@string/version1_0"
+        android:textColor="#6D4C41"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints" />

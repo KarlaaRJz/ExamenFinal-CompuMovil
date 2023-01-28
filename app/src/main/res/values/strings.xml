@@ -4,4 +4,9 @@
     <string name="la_historia_de_la_m_sica">La Historia de la música</string>
     <string name="version1_0">Version1.0</string>
     <string name="razas_de_perros">Razas de perros</string>
+    <string name="schnauzer">Schnauzer</string>
+    <string name="tama_o_mediano">Tamaño mediano</string>
+    <string name="europeo">Europeo</string>
+    <string name="razas_de_perros_en_m_xico">Razas de perros en México</string>
+    <string name="perrito_popular_en_m_xico">Perrito popular en México</string>
 </resources>
