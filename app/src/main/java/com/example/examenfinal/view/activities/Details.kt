@@ -67,6 +67,4 @@ class Details : AppCompatActivity() {
     }
 }
 
-private fun Any.enqueue(callback: Callback<Raza_detail>) {
 
-}
