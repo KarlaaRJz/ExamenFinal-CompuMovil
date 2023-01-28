@@ -8,6 +8,7 @@ import com.bumptech.glide.Glide
 import com.example.examenfinal.R
 import com.example.examenfinal.databinding.ActivityDetailsBinding
 import com.example.examenfinal.model.Api
+import com.example.examenfinal.model.Raza
 import com.example.examenfinal.model.Raza_detail
 import com.example.examenfinal.util.Constants
 import kotlinx.coroutines.CoroutineScope
@@ -34,7 +35,7 @@ class Details : AppCompatActivity() {
         CoroutineScope(Dispatchers.IO).launch {
 
 
-            call.enqueue(object : Callback<Raza_detail> {
+            call.enqueue(object: Callback<Raza_detail> {
                 override fun onResponse(call: Call<Raza_detail>, response: Response<Raza_detail>) {
                     binding.pbConexion.visibility = View.GONE
 
@@ -64,4 +65,8 @@ class Details : AppCompatActivity() {
             })
         }
     }
+}
+
+private fun Any.enqueue(callback: Callback<Raza_detail>) {
+
 }
