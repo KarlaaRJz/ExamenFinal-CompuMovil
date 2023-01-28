@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.bumptech.glide.Glide
 import com.example.examenfinal.R
 import com.example.examenfinal.databinding.ActivityDetailsBinding
 import com.example.examenfinal.model.Api
@@ -31,6 +32,8 @@ class Details : AppCompatActivity() {
         val call = Constants.getRetrofit().create(Api::class.java).getRazaApiary(id)
 
         CoroutineScope(Dispatchers.IO).launch {
+
+
             call.enqueue(object : Callback<Raza_detail> {
                 override fun onResponse(call: Call<Raza_detail>, response: Response<Raza_detail>) {
                     binding.pbConexion.visibility = View.GONE
@@ -47,7 +50,6 @@ class Details : AppCompatActivity() {
                     }
 
                 }
-
 
 
                 override fun onFailure(call: Call<Raza_detail>, t: Throwable) {
