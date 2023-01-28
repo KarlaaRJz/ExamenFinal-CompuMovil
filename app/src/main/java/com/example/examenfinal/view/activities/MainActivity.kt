@@ -7,10 +7,8 @@ import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView.LayoutManager
-import com.example.examenfinal.R
 import com.example.examenfinal.databinding.ActivityMainBinding
-import com.example.examenfinal.model.Dogs.Api
+import com.example.examenfinal.model.Api
 import com.example.examenfinal.model.Raza
 import com.example.examenfinal.model.Raza_detail
 import com.example.examenfinal.util.Constants
@@ -70,6 +68,5 @@ class MainActivity : AppCompatActivity() {
 
         startActivity(intent)
     }
-
 
 }

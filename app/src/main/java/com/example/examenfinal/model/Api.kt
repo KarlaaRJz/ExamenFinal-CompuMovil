@@ -1,4 +1,4 @@
-package com.example.examenfinal.model.Dogs
+package com.example.examenfinal.model
 
 import com.example.examenfinal.model.Raza
 import com.example.examenfinal.model.Raza_detail
