@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
             putString("id", raza.id)
         }
 
-        val intent = Intent(this@MainActivity, Raza_detail::class.java)
+        val intent = Intent(this@MainActivity, Details::class.java)
 
         intent.putExtras(parametros)
 
